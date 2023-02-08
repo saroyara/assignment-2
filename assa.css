@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo-title{
+    text-decoration: solid;
+    color: black;
+    align-items: left;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    align-items: right;
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+    width: auto;
+    background-color: pink;
+    border-bottom: 30px solid pink;
+    
+}
+
+.logo{
+    width: 90%;
+    margin: 1%;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: size 50px;
+    font-weight: 50px;
+    color: black;
+    font: bold;
+}
+.items{
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+    padding: 10px;
+    justify-content: left;
+    align-items: left;
+}
+.item{
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.bita{
+  background-color: pink; 
+   text-align: center;
+}
+.alpha{
+    background-color: orange;
+    border-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.img logo{
+    width: 80%;
+    background-color: pink;
+}
+.gama{
+    background-color: orange;
+    border-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+/* start services section style form here  */
+
+
+.service-left{
+    width: 50%;
+}
+.title-service{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 7px;
+    color: black;
+}
+.vigi{
+    height: 400px;
+    width: 300px;
+   margin-left: 800px;
+
+}
+
+
+.banner-2{
+    padding: 10px 20px; 
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+/* gallery section */
+.gallery-section{
+    /* width: 50%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.gallery-section img{
+    width: 300px;
+    height: 300px;
+}
+
+/* text section */
+.text-section{
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap:15px; 
+    padding: 20px 
+}
+.text-1{
+    font-weight: 500;
+    font-size: 45px;
+    color: var(--dark-2);
+}
+.text-2{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--dark-1);
+}
+.text-3{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color);
+}
+.text-Description{
+    text-align: left;
+    color: var(--dark-2);
+}
+
+//
+.img-section >img{
+    width: 700px;
+    height: 800px; 
+    margin-bottom: -121px;
+}
+.btn-optional{
+    width: 342px;
+    height: 200px;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--color-white);
+}
+.btn-optional h3{
+
+    font-weight: 700;
+    font-size: 65px;
+    /* font-weight: var(--font-size-primary);
+    font-size: var(--font-size-primary); */
+    /* background-color: var(--primary-color); */
+}
+.btn-optional p{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* ............................ */
+//
+
+/* .service-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.blogs-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+.bela{
+ font: verdana;
+ font-size: large;   
+}
+.blog-container{
+    
+    margin-left: 100px;
+}
+.blog-box{
+    text-align: left;
+    margin-top:30px;
+}
+.description-blog{
+    
+    font-size:22px;
+    width: 50%;
+    margin: auto;
+}
+
+.shanu{
+    color: darkgrey;
+    font: calibri;
+}
+
+
+.copy{
+    text-align: center;
+    padding: 10px;
+    background-color: pink;
+    width: 75%;
+}
+.delta{
+    text-align: center;
+}
+.aga{
+    text-align: bold;
+    font-family: calibri; 
+}
+.matha{
+    color: darkgrey;
+    font-family: calibri;
+}
+.sani{
+    font-family: verdana;
+}
+.two{
+    font: calibri;
+color: black;
+font-size: bold;
+}
+.three{
+    font: calibri;
+    color: orange;
+}
+.quick{
+    
+    text-align: left;
+}
+
+    /* start banner section  */
+    .images{
+        display: flex;
+        flex-wrap: wrap;
+        margin:  50px;
+        padding: 30px;
+        cursor: pointer;
+        font-family: calibri;
+        font-size: small;
+        color: rgb(61, 57, 57);
+    }
+    .photo{
+        
+        padding:  10px;
+        height: 100px;
+        width: 80px;
+        border-color: black;
+        margin-right: 50px;
+        margin-left: 50px;
+        border-style: ridge;
+        border-color: orange;
+    }
+    .photo img{
+        width: auto;
+        height: auto;
+        
+         
+    }
+    .kite{
+        border-radius: 75%;
+    }
+    
+    .icon{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .icon1{
+        max-width: 75%;
+        padding:  20px;
+        height: 25px;
+        margin-right: 50px;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+    .icon img{
+        width: 100%;
+        height: 100%;
+    }
+    .big{
+        font-family: calibri;
+    }
+    .data{
+        font-family: calibri;
+        color:slategrey;
+    }
+    .beta{
+        font-family: calibri;
+        font-size: small;
+        color: darkgray;
+    }
+    .leta{
+        display: ;
+        border-style: ridge;
+        width: 400px;
+        height: 100px;
+        margin-right: ;
+        box-shadow: 4px 4px 8px gray;
+    }
+//
+ /* responsive */
+ @media only screen  and (max-width:576px){
+
+    *{
+        background-position: center;
+        background-size: auto;
+    }
+    .primary-font{
+        background-position: left;
+        font-weight: 200;
+        font-size: 50px;
+    }
+    
+    /* --------------------------------- */
+   
